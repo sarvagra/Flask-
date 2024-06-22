@@ -1,0 +1,20 @@
+<title>CALCULATOR</title>
+<link rel="stlyesheet" href="/static/css/style.css">
+
+<div class="content">
+    <h1 style="text-align :center">calculator</h1>
+    <div class ="form"> 
+        <form action="/math" method="POST">
+            <label for="operation">CHOOSE A MATHEMATICAL OPERATION</label>
+<select id="operation" name="operation">
+    <option value="add">ADD</option>
+    <option value="substract">SUBSTRACT</option>
+    <option value="multiply">MULTIPLY</option>
+    <option value="divide">DIIVIDE</option>
+</select>
+        <input type="text" name="num1" id="num1">
+        <input type="text" name="num2" id="num2">
+        <input type="submit" name="calculate">
+        </form>
+    </div>
+</div>

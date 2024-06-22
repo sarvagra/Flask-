@@ -1,0 +1,13 @@
+2024-06-22 17:17:41,536 creating a test route
+2024-06-22 17:17:41,536 no error
+2024-06-22 17:17:41,604 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5050
+ * Running on http://192.168.1.4:5050
+2024-06-22 17:17:41,608 [33mPress CTRL+C to quit[0m
+2024-06-22 17:17:46,457 taking input
+2024-06-22 17:17:46,457 returning the data input
+2024-06-22 17:17:46,457 192.168.1.4 - - [22/Jun/2024 17:17:46] "GET /test HTTP/1.1" 200 -
+2024-06-22 17:17:59,203 taking input
+2024-06-22 17:17:59,203 returning the data input
+2024-06-22 17:17:59,203 192.168.1.4 - - [22/Jun/2024 17:17:59] "GET /test?x=1234 HTTP/1.1" 200 -
